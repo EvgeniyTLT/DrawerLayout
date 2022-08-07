@@ -15,7 +15,6 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
             open.setOnClickListener {
                 drawer.openDrawer(GravityCompat.START)
-
                 button3.setOnClickListener {
                     drawer.closeDrawer(GravityCompat.START)
                 }
